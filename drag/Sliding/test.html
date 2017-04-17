@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/AndreaLombardo/BootSideMenu/master/css/BootSideMenu.css">
+  <link rel="stylesheet" type="text/css" href="../css/dropzone.css" />
+<script src="https://use.fontawesome.com/90cc32dc7c.js"></script>
+<script type="text/javascript" src="../js/dropzone.js"></script>
+  <style type="text/css">
+  .user{
+    padding:5px;
+    margin-bottom: 5px;
+  }
+  .toggler{
+    display:none;
+  }
+</style>
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="js/BootSideMenu.js"></script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    
+      $('#test').BootSideMenu({side:"left", autoClose:true});
+      
+  });
+  </script>
+
+</script>
+</head>
+<body>
+
+  <!--Test -->
+  <div id="test" style="width:500px;">
+    <div class="list-group">
+      <a href="#" class="list-group-item active">Cras justo odio</a>
+      <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+      
+    </div>
+
+    </div>
+  <!--/Test -->
+
+  
+
+  <!--Normale contenuto di pagina-->
+  <div class="container">
+  <h1>File Upload</h1>
+<div class="image_upload_div">
+
+  <form action="../upload.php" class="dropzone">
+  
+    </form>
+</div>  
+    
+</div>
+ 
+  <!--Normale contenuto di pagina-->
+
+
+</body>
+</html>
